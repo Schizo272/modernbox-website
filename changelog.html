@@ -34,7 +34,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start; 
-            align-items: center;
+            align-items: flex-start; /* Aligning text to the left */
             padding: 20px; 
         }
 
@@ -48,6 +48,21 @@
 <body>
 
 <div id="container">
+    <!-- New Square with Updated Changelog -->
+    <div class="square">
+        <div class="square-content">
+            <strong>ModernBox X</strong><br>
+            <em>Addition - Added Humvees</em><br>
+            <em>Addition - Added Xenium Bomb, a new type of nuke.</em><br>
+            <em>Addition - Added new stuff to the menu</em><br>
+            <em>Overhaul - Menu UI sprites changed.</em><br>
+            <em>Improvement - Vehicles sprites now face the right direction based on their travel direction.</em><br>
+            <em>Addition - Much more smaller stuff!</em><br>
+            <em>Removal - Removed Strongholds/lookouts</em>
+        </div>
+    </div>
+
+    <!-- Existing squares -->
     <div class="square">
         <div class="square-content">
             <strong>ModernBox "wtf" update 1.9.8</strong><br>
@@ -62,30 +77,13 @@
         <div class="square-content">
             <strong>ModernBox "mmmmmmmore settings" update 1.9.7</strong><br>
             <em>Addition - Added a few more buttons to the tab for settings.</em><br>
-            <em>Adjustment - Changed the weapon on the tank from "Mp5" to "RocketLauncher". I have no clue why it was set to "Mp5"</em>
+            <!-- ... Other content ... -->
         </div>
     </div>
 
-    <!-- Third Square -->
-    <div class="square">
-        <div class="square-content">
-            <strong>ModernBox 1.9.6 "OMG FIXED" 1.9.6</strong><br>
-            <em>Bugfix - Fixed Index Array error that caused the games buildings to randomly freeze the game.</em><br>
-            <em>Bugfix - Fixed that the "turn off pipe guns" option didn't actually turn off pipe guns.</em><br>
-            <em>Addition - Tanks and Helicopters can now be spawned whenever you want, instead of the previous restrictions such as docks.</em><br>
-            <em>Overhaul - All guns now use the "steel" material instead of "base", this could potentially solve some issues.</em><br>
-            <em>Refactor - I have refactored a lot of debug logs.</em><br>
-            <em>Feature - The Debug logger will now display the file path at the top.</em><br>
-            <em>Tweak - Potentially fixed the fact that cyberware couldn't be unlocked.</em><br>
-            <em>Improvement - ModernBox should be much more polished now.</em><br>
-            <em>Improvement - And many more small stuff.</em>
-        </div>
-    </div>
-</div
- <center> <font size="5"> <font color="white">  Version before that are mostly broken and are not recommended...</font> </font> </center>
+    <!-- ... Other existing squares ... -->
+
 </div>
-
-</body>
 
 </body>
 </html>
