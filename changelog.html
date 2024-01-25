@@ -3,87 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modernbox Changelogs!</title>
+    <title>ModernBox Mod Changelog</title>
     <link rel="icon" href="icon.ico" type="image/x-icon">
 
     <style>
         body, html {
             background-color: #000 !important;
-            color: #fff;
+            color: #ffffff;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             text-align: center;
         }
 
-        #container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        header {
+            background-color: #000000;
+            padding: 20px;
         }
 
-        .square {
-            width: 1000px;
-            height: 1000px;
-            margin: 10px;
+        #top-bar {
             background-color: #000;
+            padding: 10px;
+            text-align: center;
             border: 2px solid #ff0000;
-            border-radius: 15px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start; 
-            align-items: flex-start; 
-            padding: 20px; 
+            border-radius: 50px;
         }
 
-        .square-content {
-            color: #fff;
-            font-size: 20px;
-            text-align: left; 
+        #top-bar a {
+            margin: 0 10px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
         }
+
+        #top-bar a:hover {
+            color: #808080;
+        }
+
+        main {
+            padding: 20px;
+            background-color: #000 !important;
+        }
+
+        .changelog-entry {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .changelog-entry h3 {
+            margin: 10px 0;
+        }
+
+        .changelog-entry ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .changelog-entry li {
+            margin: 5px 0;
+        }
+
+        /* Add more styles as needed */
     </style>
 </head>
 <body>
 
-<div id="container">
-   
-    <div class="square">
-        <div class="square-content">
-            <strong>ModernBox X</strong><br>
-            <em>Addition - Added Humvees</em><br>
-            <em>Addition - Added Xenium Bomb, a new type of nuke.</em><br>
-            <em>Addition - Added new stuff to the menu</em><br>
-            <em>Overhaul - Menu UI sprites changed.</em><br>
-            <em>Improvement - Vehicles sprites now face the right direction based on their travel direction.</em><br>
-            <em>Addition - Much more smaller stuff!</em><br>
-            <em>Removal - Removed Strongholds/lookouts</em>
-        </div>
-    </div>
+<header>
+    <h1>ModernBox Mod Changelog</h1>
+</header>
 
-   
-    <div class="square">
-        <div class="square-content">
-            <strong>ModernBox "wtf" update 1.9.8</strong><br>
-            <em>Overhaul - Changed all the weapons from "steel" to "wood" (even MIRVs), this is temporary until I find a better solution.</em><br>
-            <em>Adjustment - Tanks are now at 5K health</em><br>
-            <em>Bugfix - MIRV boats are almost fixed, tho I'm keeping the sprites as the old ones still so they won't appear as fixed yet.</em><br>
-            <em>Overhaul - Tanks aren't MIRV like anymore.</em><br>
-            <em>Addition - Other things</em>
-        </div>
-    </div>
-    <div class="square">
-        <div class="square-content">
-            <strong>ModernBox "mmmmmmmore settings" update 1.9.7</strong><br>
-            <em>Addition - Added a few more buttons to the tab for settings.</em><br>
-          
-        </div>
-    </div>
-
-   
-
+<div id="top-bar">
+    <a href="index.html">Home</a>
+    <a href="changelog.html">Changelog</a>
+    <a href="https://discord.gg/vAbprErQxn">Discord Server</a>
+    <a href="team.html">Our Team</a>
 </div>
+
+<main>
+    <h2>Changelog Entries</h2>
+
+    <!-- Changelog Entry 1 -->
+    <div class="changelog-entry">
+        <h3>Version 1.0.0 - Release Date</h3>
+        <ul>
+            <li>Added feature 1</li>
+            <li>Fixed bug 1</li>
+            <!-- Add more features or changes as needed -->
+        </ul>
+    </div>
+
+    <!-- Changelog Entry 2 -->
+    <div class="changelog-entry">
+        <h3>Version 1.1.0 - Release Date</h3>
+        <ul>
+            <li>Added feature 2</li>
+            <li>Improved performance</li>
+            <!-- Add more features or changes as needed -->
+        </ul>
+    </div>
+
+    <!-- Add more changelog entries as needed -->
+
+</main>
 
 </body>
 </html>
